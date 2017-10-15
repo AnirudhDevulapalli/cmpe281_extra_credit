@@ -11,5 +11,5 @@ func main() {
 }
 
 func index(w http.ResponseWriter, r *http.Request){
-	io.WriteString(w, "Hello SVCC from Paypal")
+	io.WriteString(w, "SVCC was fun!")
 }
